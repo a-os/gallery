@@ -1,0 +1,38 @@
+{
+  "name": "gallery",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alivedise/gallery",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "shared",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "action_menu": "git@github.com:alivedise/action_menu.git#~0.0.1",
+    "blobview": "git@github.com:alivedise/blobview.git",
+    "component_utils": "git@github.com:alivedise/component_utils.git#~0.0.1",
+    "config": "git@github.com:alivedise/config.git#~0.0.1",
+    "confirm": "git@github.com:alivedise/confirm.git",
+    "device_storage": "git@github.com:alivedise/device_storage.git#~0.0.1",
+    "dialogs": "git@github.com:alivedise/dialogs.git#~0.0.1",
+    "font_size_utils": "git@github.com:alivedise/font_size_utils.git#~0.0.1",
+    "gaia-header": "git@github.com:alivedise/gaia-header.git#~0.0.1",
+    "gesture_detector": "git@github.com:alivedise/gesture_detector.git#~0.0.1",
+    "gaia-theme": "git@github.com:alivedise/gaia-theme.git#~0.0.1",
+    "gaia-icons": "git@github.com:alivedise/gaia-icons.git#~0.0.1",
+    "l10n": "git@github.com:alivedise/l10n.git#~0.0.1",
+    "media": "git@github.com:alivedise/media.git#~0.0.1",
+    "l10n_date": "git@github.com:alivedise/l10n_date.git#~0.0.1",
+    "mediadb": "git@github.com:alivedise/mediadb.git#~0.0.1",
+    "lazy_loader": "git@github.com:alivedise/lazy_loader.git#~0.0.1",
+    "mime_mapper": "git@github.com:alivedise/mime_mapper.git#~0.0.1",
+    "progress_activity": "git@github.com:alivedise/progress_activity.git#~0.0.1",
+    "screen_layout": "git@github.com:alivedise/screen_layout.git#~0.0.1",
+    "shrinking_ui": "git@github.com:alivedise/shrinking_ui.git#~0.0.1",
+    "status": "git@github.com:alivedise/status.git#~0.0.1"
+  }
+}
