@@ -93,7 +93,7 @@ var Pick = (function() {
     //  - frame_scripts because it has gesture_detector in it.
     //  - crop_resize_rotate.js scripts for cropResizeRotate().
     LazyLoader.load(['js/frame_scripts.js',
-                     'shared/js/media/crop_resize_rotate.js',
+                     'shared/media/crop_resize_rotate/media/crop_resize_rotate.js',
                      'js/ImageEditor.js'], gotScripts);
 
     // When the scripts we need are loaded, load the picked file we need

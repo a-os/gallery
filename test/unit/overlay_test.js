@@ -2,7 +2,7 @@
 /*global MocksHelper, Overlay*/
 'use strict';
 
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
 requireApp('/gallery/js/overlay.js');
 
 var mocksHelper = new MocksHelper([

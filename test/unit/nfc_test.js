@@ -3,7 +3,7 @@
 'use strict';
 
 requireApp('/gallery/js/nfc.js');
-requireApp('system/shared/test/unit/mocks/mock_shrinking_ui.js');
+requireApp('system/shared/unit_test_mocks/mock_shrinking_ui.js');
 
 suite('nfc', function() {
 

@@ -145,7 +145,7 @@
       // XXX: Currently, we know how to get the sizes of all the image
       // types that this activity is registered to handle. If we add new
       // image types to manifest.webapp, then we should update
-      // shared/js/media/image_size.js to compute the size or we should
+      // shared/media/image_size/media/image_size.js to compute the size or we should
       // add code here to load the image into an offscreen <img> to
       // determine its size (but only if the file size is not too large).
       //

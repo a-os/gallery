@@ -3,10 +3,10 @@
 /*global MocksHelper, LAYOUT_MODE, MediaDB, ImageEditor, Pick*/
 'use strict';
 
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_mediadb.js');
-require('/shared/test/unit/mocks/mock_crop_resize_rotate.js');
-require('/shared/test/unit/mocks/mock_navigator_getdevicestorage.js');
+require('/shared/unit_test_mocks/mock_lazy_loader.js');
+require('/shared/unit_test_mocks/mock_mediadb.js');
+require('/shared/unit_test_mocks/mock_crop_resize_rotate.js');
+require('/shared/unit_test_mocks/mock_navigator_getdevicestorage.js');
 requireApp('/gallery/test/unit/mock_image_editor.js');
 requireApp('/gallery/test/unit/mock_spinner.js');
 requireApp('/gallery/js/pick.js');

@@ -49,7 +49,7 @@
     }
 
     LazyLoader.load(['js/metadata_scripts.js',
-                     'shared/js/media/crop_resize_rotate.js'], function() {
+                     'shared/media/crop_resize_rotate/media/crop_resize_rotate.js'], function() {
                        metadataParserLoaded = true;
                        metadataParser(file, onsuccess, onerror, bigFile);
                      });

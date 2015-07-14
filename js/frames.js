@@ -83,8 +83,8 @@ fullscreenButtons.delete.onclick = deleteSingleItem;
 fullscreenButtons.edit.onclick = function() {
   LazyLoader.load(['js/ImageEditor.js',
                    'js/image_processor_thread.js',
-                   'shared/js/media/crop_resize_rotate.js',
-                   'shared/style/action_menu.css'
+                   'shared/media/crop_resize_rotate/media/crop_resize_rotate.js',
+                   'shared/action_menu/action_menu.css'
                   ], function() {
                     editPhotoIfCardNotFull(currentFileIndex);
                   });
@@ -95,7 +95,7 @@ fullscreenButtons.share.onclick = shareSingleItem;
 
 // Clicking the information button will display information about the photo.
 fullscreenButtons.info.onclick = function() {
-  LazyLoader.load(['js/info.js', 'shared/style/confirm.css', 'style/info.css'],
+  LazyLoader.load(['js/info.js', 'shared/confirm/confirm.css', 'style/info.css'],
                   function() {
                     showFileInformation(files[currentFileIndex]);
                   });
@@ -223,7 +223,7 @@ function shareSingleItem() {
       // This is only tricky case. If we are sharing an image that uses
       // EXIF orientation for correct display, rotate it before sharing
       // so that the recieving app doesn't have to know about EXIF
-      LazyLoader.load(['shared/js/media/crop_resize_rotate.js'],
+      LazyLoader.load(['shared/media/crop_resize_rotate/media/crop_resize_rotate.js'],
                       shareModifiedImage);
     }
   }

@@ -40,7 +40,7 @@ var Overlay = {
 
   show: function show(id) {
     Overlay.current = id;
-    LazyLoader.load('shared/style/confirm.css', function() {
+    LazyLoader.load('shared/confirm/confirm.css', function() {
       // hide any special elements
       $('overlay-camera-button').classList.add('hidden');
       $('overlay-cancel-button').classList.add('hidden');
