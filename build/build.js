@@ -20,10 +20,10 @@ GalleryAppBuilder.prototype.setOptions = function(options) {
 
 GalleryAppBuilder.prototype.concatenatedScripts = function() {
   var frameScriptsPaths = [
-    [this.sharedPath, 'js', 'gesture_detector.js'],
-    [this.sharedPath, 'js', 'format.js'],
-    [this.sharedPath, 'js', 'media', 'video_player.js'],
-    [this.sharedPath, 'js', 'media', 'media_frame.js'],
+    [this.sharedPath, 'gesture_detector', 'gesture_detector.js'],
+    [this.sharedPath, 'format', 'format.js'],
+    [this.sharedPath, 'media', 'video_player.js'],
+    [this.sharedPath, 'media', 'media_frame.js'],
     [this.options.APP_DIR, 'js', 'frames.js']
   ];
   var frameScriptsPath = utils.joinPath(this.options.STAGE_APP_DIR, 'js',
@@ -31,10 +31,10 @@ GalleryAppBuilder.prototype.concatenatedScripts = function() {
   utils.concatenatedScripts(frameScriptsPaths, frameScriptsPath);
 
   var metadataScriptsPaths = [
-    [this.sharedPath, 'js', 'blobview.js'],
-    [this.sharedPath, 'js', 'media', 'jpeg_metadata_parser.js'],
-    [this.sharedPath, 'js', 'media', 'get_video_rotation.js'],
-    [this.sharedPath, 'js/media', 'image_size.js'],
+    [this.sharedPath, 'blobview', 'blobview.js'],
+    [this.sharedPath, 'media', 'jpeg_metadata_parser.js'],
+    [this.sharedPath, 'media', 'get_video_rotation.js'],
+    [this.sharedPath, 'media', 'image_size.js'],
     [this.options.APP_DIR, 'js', 'MetadataParser.js']
   ];
   var metadataScriptsPath = utils.joinPath(this.options.STAGE_APP_DIR, 'js',

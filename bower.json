@@ -33,6 +33,7 @@
     "progress_activity": "git@github.com:alivedise/progress_activity.git#~0.0.1",
     "screen_layout": "git@github.com:alivedise/screen_layout.git#~0.0.1",
     "shrinking_ui": "git@github.com:alivedise/shrinking_ui.git#~0.0.1",
-    "status": "git@github.com:alivedise/status.git#~0.0.1"
+    "status": "git@github.com:alivedise/status.git#~0.0.1",
+    "format": "git@github.com:alivedise/format.git#~0.0.1"
   }
 }
