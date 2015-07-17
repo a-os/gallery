@@ -15,7 +15,7 @@ GalleryAppBuilder.prototype.DEFAULT_VALUE = {
 
 GalleryAppBuilder.prototype.setOptions = function(options) {
   this.options = options;
-  this.sharedPath = utils.gaia.getInstance(options).sharedFolder.path;
+  this.sharedPath = utils.getFile(options.APP_DIR, 'shared').path;
 };
 
 GalleryAppBuilder.prototype.concatenatedScripts = function() {
